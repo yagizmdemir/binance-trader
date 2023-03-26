@@ -7,7 +7,9 @@ const server = http.createServer((req, res) => {
       body += chunk.toString();
     });
     req.on("end", () => {
-      console.log(body);
+      console.log(new Date());
+      const seperated = body.split(" ");
+      console.log(seperated);
       res.end("Received and logged request body");
     });
   } else {
@@ -15,6 +17,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(80, () => {
+server.listen(3000, () => {
   console.log("Server listening on port 80");
 });
