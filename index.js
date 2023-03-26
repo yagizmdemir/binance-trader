@@ -12,8 +12,10 @@ app.use(bodyParser.json());
 
 app.post("/webhook", (req, res) => {
   const signalData = req.body;
-  console.log("Received signal data:", signalData);
-  console.log(req.body);
+  console.log("Request: ");
+  console.log(req);
+  console.log("Response: ");
+  console.log(res);
   bot.sendMessage(chatId, JSON.stringify(signalData)).then(() => {
     console.log('Mesaj gönderildi');
   }).catch((error) => {
