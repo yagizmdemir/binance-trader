@@ -1,7 +1,7 @@
 const express = require("express");
 const TelegramBot = require("node-telegram-bot-api");
 const app = express();
-const port = 3000;
+const port = 80;
 
 const webhooks = [
   {
