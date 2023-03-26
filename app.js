@@ -1,7 +1,7 @@
 const express = require("express");
 const TelegramBot = require("node-telegram-bot-api");
 const app = express();
-const port = 80;
+const port = 3000;
 
 const webhooks = [
   {
@@ -62,12 +62,14 @@ webhooks.map((hook, i) => {
       body += chunk.toString();
     });
     req.on("end", () => {
-      console.log(new Date());
-      const seperated = body.split(" ");
-      console.log(seperated);
+        
+      var parse = body.substr(body.indexOf("-d") + 4, body.length - body.lastIndexOf("-X") - 4);
+
+      const getTxt = JSON.parse(parse);
+      const seperated = getTxt.text.split(" ");
 
       bot
-        .sendMessage(hook.mt5.chatID, body)
+        .sendMessage(hook.mt5.chatID, getTxt.text)
         .then(() => {
           console.log("Mesaj gönderildi");
         })
@@ -76,6 +78,7 @@ webhooks.map((hook, i) => {
         });
 
       res.end("Received and logged request body");
+      
     });
   });
 });
