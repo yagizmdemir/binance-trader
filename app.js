@@ -14,6 +14,30 @@ const client = Binance({
 });
 
 const webhooks = [
+  //Uzun bot
+  {
+    webhook: "QsdacW2kisaq",
+    binance: {
+      chatID: -1001810011433,
+      botToken: "6176319988:AAFe3rbKbqe459bS1uO8CEamO1vOjSxB2io",
+    },
+    mt5: {
+      chatID: -1001810011433,
+      botToken: "6176319988:AAFe3rbKbqe459bS1uO8CEamO1vOjSxB2io",
+    },
+  },
+  //Kısa bot
+  {
+    webhook: "QsdacW24qea",
+    binance: {
+      chatID: -1001815709655,
+      botToken: "6068843776:AAEktKz3IyEw5URQJyOlZkPtPrAVraKAe-o",
+    },
+    mt5: {
+      chatID: -1001815709655,
+      botToken: "6068843776:AAEktKz3IyEw5URQJyOlZkPtPrAVraKAe-o",
+    },
+  },
   //Hikmet Ilgaz
   {
     webhook: "lXsibvtpZJ",
