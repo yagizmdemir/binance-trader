@@ -14,7 +14,7 @@ const client = Binance({
 });
 
 const webhooks = [
-  //Uzun bot
+  //Kısa bot
   {
     webhook: "QsdacW2kisaq",
     binance: {
@@ -26,7 +26,7 @@ const webhooks = [
       botToken: "6176319988:AAFe3rbKbqe459bS1uO8CEamO1vOjSxB2io",
     },
   },
-  //Kısa bot
+  //Uzun bot
   {
     webhook: "QsdacW24qea",
     binance: {
