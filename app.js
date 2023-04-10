@@ -90,23 +90,23 @@ const webhooks = [
   {
     webhook: "IAOuVsVRmRNZDUSD",
     binance: {
-      chatID: -1001958402970,
-      botToken: "6209030208:AAEV1yx4r1F03svexoQ73MEg1aP-fRD6rn8",
+      chatID: -1001732416338,
+      botToken: "6204607826:AAG8RuNEHKErIqcUYlgf0yi6vGsZ_eo_2LU",
     },
     mt5: {
-      chatID: -1001958402970,
-      botToken: "6209030208:AAEV1yx4r1F03svexoQ73MEg1aP-fRD6rn8",
+      chatID: -1001732416338,
+      botToken: "6204607826:AAG8RuNEHKErIqcUYlgf0yi6vGsZ_eo_2LU",
     },
   },
   //Yağız Mehmet Demir - AUDUSD
   {
     webhook: "IAOuVsVRmRAUDUSD",
     binance: {
-      chatID: -1001958402970,
+      chatID: -1001882040239,
       botToken: "6209030208:AAEV1yx4r1F03svexoQ73MEg1aP-fRD6rn8",
     },
     mt5: {
-      chatID: -1001958402970,
+      chatID: -1001882040239,
       botToken: "6209030208:AAEV1yx4r1F03svexoQ73MEg1aP-fRD6rn8",
     },
   }
