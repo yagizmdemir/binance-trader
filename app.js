@@ -66,11 +66,11 @@ const webhooks = [
   {
     webhook: "IAOuVsVRmR",
     binance: {
-      chatID: -1001944095697,
+      chatID: -1001958402970,
       botToken: "6209030208:AAEV1yx4r1F03svexoQ73MEg1aP-fRD6rn8",
     },
     mt5: {
-      chatID: -1001944095697,
+      chatID: -1001958402970,
       botToken: "6209030208:AAEV1yx4r1F03svexoQ73MEg1aP-fRD6rn8",
     },
   },
