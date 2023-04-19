@@ -62,52 +62,16 @@ const webhooks = [
       botToken: "6196276189:AAHsnUfNzBri6YKNYC6xgnUM6NK38Qc7Tlc",
     },
   },
-  //Yağız Mehmet Demir - GBPUSD
+  //Yağız Mehmet Demir
   {
-    webhook: "IAOuVsVRmRGBPUSD",
+    webhook: "IAOuVsVRmR",
     binance: {
-      chatID: -1001547297612,
-      botToken: "6005651904:AAFEgtk4xjhHpDU9UiPMu-Az9vdH1PxU8c4",
+      chatID: -1001958402970,
+      botToken: "5549479470:AAE1wbhhKt9kksNm7HfAfBjyBfCXs1K_zis",
     },
     mt5: {
-      chatID: -1001547297612,
-      botToken: "6005651904:AAFEgtk4xjhHpDU9UiPMu-Az9vdH1PxU8c4",
-    },
-  },
-  //Yağız Mehmet Demir - EURUSD
-  {
-    webhook: "IAOuVsVRmREURUSD",
-    binance: {
-      chatID: -1001948050572,
-      botToken: "6065786579:AAG0wA1jWUy1ly5TqKS-pfU78yTleoBSO9I",
-    },
-    mt5: {
-      chatID: -1001948050572,
-      botToken: "6065786579:AAG0wA1jWUy1ly5TqKS-pfU78yTleoBSO9I",
-    },
-  },
-  //Yağız Mehmet Demir - NZDUSD
-  {
-    webhook: "IAOuVsVRmRNZDUSD",
-    binance: {
-      chatID: -1001732416338,
-      botToken: "6204607826:AAG8RuNEHKErIqcUYlgf0yi6vGsZ_eo_2LU",
-    },
-    mt5: {
-      chatID: -1001732416338,
-      botToken: "6204607826:AAG8RuNEHKErIqcUYlgf0yi6vGsZ_eo_2LU",
-    },
-  },
-  //Yağız Mehmet Demir - AUDUSD
-  {
-    webhook: "IAOuVsVRmRAUDUSD",
-    binance: {
-      chatID: -1001882040239,
-      botToken: "6209030208:AAEV1yx4r1F03svexoQ73MEg1aP-fRD6rn8",
-    },
-    mt5: {
-      chatID: -1001882040239,
-      botToken: "6209030208:AAEV1yx4r1F03svexoQ73MEg1aP-fRD6rn8",
+      chatID: -1001958402970,
+      botToken: "5549479470:AAE1wbhhKt9kksNm7HfAfBjyBfCXs1K_zis",
     },
   }
 ];
