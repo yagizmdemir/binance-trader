@@ -154,13 +154,15 @@ webhooks.map((hook, i) => {
                 const trigger = signal[2].slice(9, signal[2].length - 1);
                 indicators[smb][indis] = trigger;
                 if (indicators[smb]["CCI"] == "CrossedUp" && indicators[smb]["MACD"] == "CrossedUp" && indicators[smb]["DPC"] == "CrossedUp") {
-                    bot.sendMessage(hook.mt5.chatID, `Buy ${smb} Q=0.04 SL=20 TP=17`)
-                        .then(() => { console.log("Mesaj gönderildi") })
-                        .catch((error) => { console.error("Mesaj gönderilirken hata oluştu:", error) });
-        
+                    indicators[smb]["CCI"] == "";
+                    bot.sendMessage(hook.mt5.chatID, `Buy ${smb} Q=0.04 SL=30 TP=25`)
+                    .then(() => { console.log("Mesaj gönderildi") })
+                    .catch((error) => { console.error("Mesaj gönderilirken hata oluştu:", error) });
+                    
                     res.end("Position sent to MT5");
                 } else if ( indicators[smb]["CCI"] == "CrossedDown" && indicators[smb]["MACD"] == "CrossedDown" && indicators[smb]["DPC"] == "CrossedDown" ) {
-                    bot.sendMessage(hook.mt5.chatID, `Sell ${smb} Q=0.04 SL=20 TP=17`)
+                    indicators[smb]["CCI"] == "";
+                    bot.sendMessage(hook.mt5.chatID, `Sell ${smb} Q=0.04 SL=30 TP=25`)
                         .then(() => { console.log("Mesaj gönderildi") })
                         .catch((error) => { console.error("Mesaj gönderilirken hata oluştu:", error) });
         
